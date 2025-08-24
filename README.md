@@ -24,6 +24,9 @@ After installing, you must configure the driver through your ASCOM-compatible as
 2.  **Cycle Time (minutes)**: Specify how often the driver should check the image for new conditions.
 3.  **Cloudy/Covered Tolerance (minutes)**: Set the number of minutes the sky can be continuously cloudy or covered before the driver reports an `IsSafe` status of `false`.
 
+<img width="1863" height="1008" alt="image" src="https://github.com/user-attachments/assets/4a996dca-bd34-4e4c-b8be-001a26977201" />
+
+
 ## Customizing the Model
 
 The driver uses a pre-trained `model.onnx` file, but you can create your own model to better suit your camera and local conditions.
